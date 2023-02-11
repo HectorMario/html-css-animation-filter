@@ -179,3 +179,101 @@
     width: 60px;
     height: 20px;
 }
+
+/* 12 */
+@keyframes yu{
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 50%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes tu {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 60%;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: yu;
+    animation-duration: 2s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: tu;
+    animation-duration: 2s;
+}
+
+/* 13 */
+@keyframes yur{
+  
+
+    20%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+
+    40%{
+       top: calc(100% - 10px);
+       left: calc(100% - 30px);
+    }
+
+    60%{
+        left: calc(0% - 20px);
+        top: calc(100% - 10px);
+    }
+
+    80%{
+        top: calc(0% - 10px);
+        left: calc(0% - 20px);
+    }
+
+   
+}
+
+@keyframes tur {
+    20%{
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+
+    40%{
+       bottom: calc(100% - 10px);
+       right: calc(100% - 30px);
+    }
+
+    60%{
+        right: calc(0% - 20px);
+        bottom: calc(100% - 10px);
+    }
+
+    80%{
+        bottom: calc(0% - 10px);
+        right: calc(0% - 20px);
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: yur;
+    animation-duration: 2s;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: tur;
+    animation-duration: 2s;
+}

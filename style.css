@@ -109,10 +109,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-    animation-name: rot;
-    
+    animation:  1s linear infinite;
 }
 
 @keyframes rot{
@@ -210,13 +207,11 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-    animation-name: yu;
-    animation-duration: 2s;
+    animation: yu 1s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation-name: tu;
-    animation-duration: 2s;
+    animation: tu 1s linear;
 }
 
 /* 13 */
@@ -269,11 +264,9 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation-name: yur;
-    animation-duration: 2s;
+    animation: yur 3s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation-name: tur;
-    animation-duration: 2s;
+    animation: tur 3s linear;
 }
